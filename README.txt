@@ -1,28 +1,17 @@
-Helios 1.0 by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Pearl & Anthony Are Getting Married
+Version 0.1
+Free for personal and commercial use under the CCA 3.0 license
 
+All Photos are copyright Red Cart Studios
 
-This is Helios, a brand new site template for HTML5 UP. It's clean, modern, and designed
-to take advantage of larger (well, wider) displays while still being capable of gracefully
-scaling down to fit all manner of smaller ones.
-	
-Demo images* courtesy of Michael Domaradzki, an awesome photographer I know over at
-deviantART. Check out his portfolio here:
-
-http://mdomaradzki.deviantart.com/
-
-* Not included with this download (replaced with generic placeholder images). Please
-don't use his work without his permission.
-
-AJ
-n33.co @n33co dribbble.com/n33
-
+This site began with the Helios 1.0 by HTML5 UP template and developed to serve
+as the website for my upcomming wedding. Much of the core template is still here
+and this is just a version of what can be done with the awesome work of @n33co.
 
 Credits
 
-	Images (Demo Only)
-		Michael Domaradzki (http://mdomaradzki.deviantart.com/)
+	Images 
+		Red Cart Studios (http://www.redcartstudios.com/)
 		
 	Icons
 		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
