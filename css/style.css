@@ -1408,13 +1408,13 @@
 
 	#paralax1 {
 		max-width: 100%;
-		background: url('../images/lightrain.jpg') center center repeat fixed;
+		background: url('../images/lightrain.jpg') center center no-repeat fixed;
 		height:400px;
 	}
 
 	#paralax2 {
 		max-width: 100%;
-		background: url('../images/vintageday.jpg') center top repeat fixed;
+		background: url('../images/vintageday.jpg') center top no-repeat fixed;
 		height:400px;
 	}
 
