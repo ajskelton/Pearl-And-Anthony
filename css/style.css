@@ -1414,7 +1414,7 @@
 
 	#paralax2 {
 		max-width: 100%;
-		background: url('../images/vintageday.jpg') center center repeat fixed;
+		background: url('../images/vintageday.jpg') center top repeat fixed;
 		height:400px;
 	}
 
