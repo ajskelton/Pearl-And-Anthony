@@ -83,7 +83,7 @@
 							<p>
 								The <strong>Hyatt Place</strong> is located across from the Mondavi Center and is a five minute walk along the Arboretum trail from the wedding site. We have arranged a block of discounted rooms under our name.
 							</p>
-							<a href="http://www.ucdavis.place.hyatt.com/en/hotel/home.html" target="_blank"><button class="button">Hyatt Place Website</button></a>
+							<button type="button" class="button" data-toggle="modal" data-keyboard="true" data-target="#hotelModal">Hotel Block Instructions</button>
 						</article>
 						<article class="4u special">
 							<img class="image featured outline" src="images/Website_program.png">
@@ -93,15 +93,66 @@
 							<p>
 								Check out the schedule of events for the special day. From games on the lawn to dancing the night away and late night smores, it'll be a day to remember.
 							</p>
-							<button type="button" class="button" data-toggle="modal" data-keyboard="true" data-target="#myModal">Schedule</button>
+							<button type="button" class="button" data-toggle="modal" data-keyboard="true" data-target="#scheduleModal">Schedule</button>
 						</article>
 					</div>
 					<footer>
 						<a href="#couple" class="button circled scrolly">Continue</a>
 					</footer>
 				</section>
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<!-- Modals -->
+				<div class="modal fade" id="hotelModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				    <div class="modal-dialog">
+				      	<div class="modal-content">
+				        	<div class="modal-header">
+				        	  	<h4 class="modal-title">Hyatt Place Wedding Block</h4>
+				        	  	<p>Group Dates: 4/26/2014</p
+				        	  	<p>If you would like to arrive earlier or stay longer than the dates listed above please contact the sales department for your reservation</p>
+				        	  	<h3>Reservations Must Be Made No Later Than 3/28/2014</h3>
+				        	</div>
+				        	<div class="modal-body">
+				        		<h3>Make your reservation online:</h3>
+				        	  <table class="style1">
+					        	  	<tr>
+					        	  		<td>Go to <a href="http://ucdavis.place.hyatt.com/en/hotel/home.html?corp_id=G-BSWG">http://ucdavis.place.hyatt.com/en/hotel/home.html?corp_id=G-BSWG</td>
+				        	  		</tr>
+				        	  		<tr>
+				        	  			<td>Input your check in and checkout dates on the Upper Right hand Section of the webpage</td>
+				        	  		</tr>
+				        	  		<tr>
+				        	  			<td>The Group Code has already been put in for you so move to Step 4</td>
+				        	  		</tr>
+				        	  		<tr>
+				        	  			<td>Click the “Check Availability” Button</td
+				        	  		</tr>
+				        	  		<tr>
+				        	  			<td>The Room types and Special Group Rate will populate along with the group name at the top of the page</td>
+				        	  		</tr>
+				        	  		<tr>
+				        	  			<td>Select the room type you would like to book by clicking the “book now” button</td>
+				        	  		</tr>
+				        	  		<tr>
+				        	  			<td>Complete the next page with all of the necessary information.</td>
+				        	  		</tr>
+			        	  		</table>
+			        	  	</div>
+			        	  	<div class="modal-body">
+			        	  		<h3>Make your reservation over the phone:</h3>
+			        	  		<p>Call: 1-888-HYATT HP (1-888-492-8847)</p>
+			        	  		<p>Be sure to specify the dates you are arriving and reference the “Buniger Skelton Wedding Group”</p>
+				        	</div>
+				        	<div class="modal-footer">
+				        		<h3>Sales Department: 530-297-3184</h3>
+				        	  <button type="button" class="button" data-dismiss="modal">Close</button>
+				    	    </div>
+				 	     </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+			  	</div><!-- /.modal -->
+			</div><!-- /#details --> 
+
+
+
+				<div class="modal fade" id="scheduleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				    <div class="modal-dialog">
 				      	<div class="modal-content">
 				        	<div class="modal-header">
@@ -172,7 +223,7 @@
 							<img src="images/santacruz.jpg" alt="Santa Cruz Sunset" /></a>
 						</div>
 						<header>
-							<h3><a href="#">Dating in Santa Cruz</a></h3>
+							<h3>Dating in Santa Cruz</h3>
 						</header>
 						<p>After many years of friendship the timing was right and Pearl <span class="amp">&amp;</span> Anthony began dating April 30th of 2009.</p>							
 					</article>
@@ -182,7 +233,7 @@
 							<img src="images/sacramento.jpg" alt="Sacramento Skyline" /></a>
 						</div>
 						<header>
-							<h3><a href="#">Sacramento Bound</a></h3>
+							<h3>Sacramento Bound</h3>
 						</header>
 						<p>A job offer in Sacramento led to the decision to take their relationship to the next step and move in together.</p>							
 					</article>
@@ -192,7 +243,7 @@
 							<img src="images/365.jpg" alt="365 Days of Pearl and Anthony" /></a>
 						</div>
 						<header>
-							<h3><a href="#">365 Days</a></h3>
+							<h3>365 Days</h3>
 						</header>
 						<p>To fuel their creativity they began a portrait project called 365 Days. See the project in its entirety <a href="http://www.redcartstudios.com/about/365-days-project/" target="_blank">here.</a></p>							
 					</article>
@@ -202,7 +253,7 @@
 							<img src="images/nyc.jpg" alt="New Years in New York City" /></a>
 						</div>
 						<header>
-							<h3><a href="#">New Year's Eve in NYC</a></h3>
+							<h3>New Year's Eve in NYC</h3>
 						</header>
 						<p>The idea of spending New Year's in Times Square led to a cross country trip to visit close friends and family.</p>							
 					</article>
@@ -212,7 +263,7 @@
 							<img src="images/lasvegas.jpg" alt="Las Vegas" /></a>
 						</div>
 						<header>
-							<h3><a href="#">Viva Las Vegas</a></h3>
+							<h3>Viva Las Vegas</h3>
 						</header>
 						<p>A regular vacation destination for Pearl <span class="amp">&amp;</span> Anthony, they celebrated their two year anniversary in Las Vegas.</p>							
 					</article>
@@ -222,7 +273,7 @@
 							<img src="images/ourfirsthome.jpg" alt="Our First Home" /></a>
 						</div>
 						<header>
-							<h3><a href="#">Our First Home</a></h3>
+							<h3>Our First Home</h3>
 						</header>
 						<p>Another step in the relationship was marked when they bought their first home in November of 2011.</p>							
 					</article>
@@ -232,7 +283,7 @@
 							<img src="images/annie2.jpg" alt="Annie the Kitten" /></a>
 						</div>
 						<header>
-							<h3><a href="#">Annie the kitten</a></h3>
+							<h3>Annie the Kitten</h3>
 						</header>
 						<p>Annie, Anthony's first pet, joined the family to mark the couple's third anniversary. The Dude is still adjusting.</p>							
 					</article>
@@ -242,7 +293,7 @@
 							<img src="images/garden.jpg" alt="Our Garden Bounty" /></a>
 						</div>
 						<header>
-							<h3><a href="#">Green Thumbs</a></h3>
+							<h3>Green Thumbs</h3>
 						</header>
 						<p>Transforming the backyard took time and effort but building a successful garden was a fun accomplishment.</p>							
 					</article>
@@ -252,7 +303,7 @@
 							<img src="images/yes.jpg" alt="She Said Yes" /></a>
 						</div>
 						<header>
-							<h3><a href="#">She Said Yes!</a></h3>
+							<h3>She Said Yes!</h3>
 						</header>
 						<p>On April 30th 2013 Anthony took Pearl to the beach in Santa Cruz for a picnic and asked her to be his wife.</p>							
 					</article>
@@ -262,11 +313,6 @@
 			<div class="wrapper style1">
 
 				<article class="container special">
-					<!-- <header>
-						<span class="byline">
-							If you don't know Pearl or Anthony here's a bit about them.
-						</span>
-					</header> -->
 
 					<div class="row">
 						<article class="6u">
@@ -275,7 +321,7 @@
 								<img src="images/pearl.jpg">
 							</div>
 							<p>
-								Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam mus lacinia lobortis phasellus suscipit.
+								Growing up in Arizona Pearl always knew she would return to the California coast for college. While attending UCSC for a degree in Film Photography she decided to make Santa Cruz her home after graduation. She became part of a great group of friends that held weekly game nights hosted by Anthony. Their friendship grew over the years until the timing was right for the beginning of a wonderful relationship. 
 							</p>
 						</article>
 
@@ -285,7 +331,7 @@
 								<img src="images/anthony.jpg">
 							</div>
 							<p>
-								Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus sit arcu sociis. Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam mus lacinia lobortis phasellus suscipit.
+								Anthony grew up in Santa Cruz and returned after finishing college in San Francisco. While persuing a career in television he discovered a passion for photography, which is something he soon learned he shared with Pearl. Their great connection during game nights led to photo walks and the chemistry grew. With a little push from Pearl's best friend Barbara they began their journey together. 
 							</p>
 						</article>
 					</div>
@@ -298,188 +344,88 @@
 
 		<!-- Paralax 2 -->
 
-			<div id="paralax2"></div>
+		<div id="paralax2"></div>
 
 		<!-- Features -->
 
 		<div id="registry" class="wrapper style1">
 				
-				<section class="container special">
-					<header>
-						<h2>Our <strong>Wedding</strong> Registry</h2>
-					</header>
-					<div class="row">
-						<article class="4u special">
-							<img class="image featured outline" src="images/bed-bath.png" alt="Bed Bath and Beyond" /></a>
-							<header>
-								<h3>Bed Bath &amp; Beyond</h3>
-							</header>
-							<p>
-								The Putah Creek Lodge is located at the end of the UC Davis Arboretum loop next to sprawling lawns and the arboretum pond. For information on directions and parking <a href="https://mapsengine.google.com/map/edit?mid=zObGZHtY1-Aw.kqu0gKoFuGfo" target="_blank">Click Here</a>.
-							</p>
-						</article>
-						<article class="4u special">
-							<a href="http://www.ucdavis.place.hyatt.com/en/hotel/home.html" target="_blank" class="image featured lodging"><img src="images/hyattplace.png" alt="Hyatt Place UC Davis" /></a>
-							<header>
-								<h3>Honeymoon Money</h3>
-							</header>
-							<p>
-								Who what where when why and where's the bar? Also information about area lodging and directions to the city and venue.
-							</p>
-						</article>
-						<article class="4u special">
-							<img class="image featured" src="images/amazon.png">
-							<header>
-								<h3>Amazon.com</h3>
-							</header>
-							<p>
-								See our wedding registry and buy us good stuff!
-							</p>
-						</article>
-					</div>
-					<footer>
-							<a href="#header" class="button circled scrolly">Back to Top</a>
-						</footer>
-				</section>
+			<section class="container special">
+				<header>
+					<h2>Our <strong>Wedding</strong> Registry</h2>
+					<span class="byline">
+						From traditional gifts to a little adventure, our registries have it all.
+					</span>
+				</header>
+				<div class="row">
+					<article class="4u special">
+						<a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=13707566&pwsurl=" target="_blank"><img class="image featured outline" src="images/bed-bath.png" alt="Bed Bath and Beyond" /></a>
+						<header>
+							<a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=13707566&pwsurl=" target="_blank"><h3>Bed Bath &amp; Beyond</h3></a>
+						</header>
+						<p>
+							We are registered under Pearl Buniger and/or Anthony Skelton at Bed Bath <span class="amp">&amp;</span> Beyond under registry number 13707566.
+						</p>
+					</article>
 
-			</div>
+					<article class="4u special">
+						<a href="http://www.amazon.com/gp/registry/wedding/1BBXK2J4XKM6J" target="_blank"><img class="image featured" src="images/amazon.png"></a>
+						<header>
+							<a href="http://www.amazon.com/gp/registry/wedding/1BBXK2J4XKM6J" target="_blank"><h3>Amazon.com</h3></a>
+						</header>
+						<p>
+							We are registered at Amazon.com under the names Pearl Buniger and/or Anthony Skelton.
+						</p>
+					</article>
+
+					<article class="4u special">
+						<img class="image featured outline" src="images/honeymoon.png" alt="Pearl &amp; Anthony's Honeymoon Fund" /></a>
+						<header>
+							<h3>Honeymoon Fund</h3>
+						</header>
+						<p>
+							Help Pearl <span class="amp">&amp;</span> Anthony take the honeymoon of their dreams in Hawaii from the trip there to adventures on the island.
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="RKQ32W6BVL9HU">
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
+
+						</p>
+					</article>
+					
+				</div>
+				<footer>
+						<a href="#header" class="button circled scrolly">Back to Top</a>
+				</footer>
+			</section>
+		</div>
 			
 
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container">
-					<!-- <div class="row">
+	<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="12u">
 						
-						<!-- Tweets -->
-							<!-- <section class="4u">
-								<header>
-									<h2 class="icon icon-twitter circled"><span>Tweets</span></h2>
-								</header>
-								<ul class="divided">
-									<li>
-										<article class="tweet">
-											Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
-											<span class="timestamp">5 minutes ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Hendrerit rutrum quisque.
-											<span class="timestamp">30 minutes ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
-											<span class="timestamp">3 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
-											<span class="timestamp">5 hours ago</span>
-										</article>
-									</li>
-								</ul>
-							</section> -->
-
-						<!-- Posts -->
-							<!-- <section class="4u">
-								<header>
-									<h2 class="icon icon-file circled"><span>Posts</span></h2>
-								</header>
-								<ul class="divided">
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Nisl fermentum integer</a></h3>
-											</header>
-											<span class="timestamp">3 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Phasellus portitor lorem</a></h3>
-											</header>
-											<span class="timestamp">6 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Magna tempus consequat</a></h3>
-											</header>
-											<span class="timestamp">Yesterday</span>
-										</article>
-									</li>
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Feugiat lorem ipsum</a></h3>
-											</header>
-											<span class="timestamp">2 days ago</span>
-										</article>
-									</li>
-								</ul>
-							</section> -->
-
-						<!-- Photos -->
-							<!-- <section class="4u">
-								<header>
-									<h2 class="icon icon-camera circled"><span>Photos</span></h2>
-								</header>
-								<div class="row quarter no-collapse">
-									<div class="6u">
-										<a href="http://mdomaradzki.deviantart.com/art/Air-Lounge-385212062" class="image full"><img src="images/pic10.jpg" alt="" /></a>
-									</div>
-									<div class="6u">
-										<a href="http://mdomaradzki.deviantart.com/art/Paris-City-Streets-II-382623606" class="image full"><img src="images/pic11.jpg" alt="" /></a>
-									</div>
-								</div>
-								<div class="row quarter no-collapse">
-									<div class="6u">
-										<a href="http://mdomaradzki.deviantart.com/art/Trainride-Visions-383309985" class="image full"><img src="images/pic12.jpg" alt="" /></a>
-									</div>
-									<div class="6u">
-										<a href="http://mdomaradzki.deviantart.com/art/Paris-Metro-382623851" class="image full"><img src="images/pic13.jpg" alt="" /></a>
-									</div>
-								</div>
-								<div class="row quarter no-collapse">
-									<div class="6u">
-										<a href="http://mdomaradzki.deviantart.com/art/Cliffs-of-Coogee-II-366961860" class="image full"><img src="images/pic14.jpg" alt="" /></a>
-									</div>
-									<div class="6u">
-										<a href="http://mdomaradzki.deviantart.com/art/Stormy-Coast-VII-366561367" class="image full"><img src="images/pic15.jpg" alt="" /></a>
-									</div>
-								</div>
-							</section> -->
-
-					<!-- </div>  -->
-					<!-- <hr /> -->
-					<div class="row">
-						<div class="12u">
-							
-							<!-- Contact -->
-								<section class="contact">
-									<header>
-										<h3>Have Any Questions?</h3>
-									</header>
-									<p>Don't hesitate to email <a href="mailto:pearl@redcartstudios.com">Pearl</a> or <a href="mailto:anthony@redcartstudios.com">Anthony</a> if you have any questions about the wedding.</p>
-								</section>
-							
-							<!-- Copyright -->
-								<div class="copyright">
-									<ul class="menu">
-										<li>&copy; Red Cart Studios. All rights reserved.</li>
-									</ul>
-								</div>
-							
-						</div>
+					<!-- Contact -->
+						<section class="contact">
+							<header>
+								<h3>Have Any Questions?</h3>
+							</header>
+							<p>Don't hesitate to email <a href="mailto:pearl@redcartstudios.com">Pearl</a> or <a href="mailto:anthony@redcartstudios.com">Anthony</a> if you have any questions about the wedding.</p>
+						</section>
 					
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Red Cart Studios. All rights reserved.</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-
+		</div>
 	</body>
 </html>
