@@ -1425,6 +1425,11 @@
 		background: url('../images/vintageday.jpg') center top no-repeat fixed;
 		height:400px;
 	}
+	#paralax3 {
+		max-width: 100%;
+		background: url('../images/checkered-wall.jpg') center top no-repeat fixed;
+		height:400px;
+	}
 
 /*********************************************************************************/
 /* Carousel                                                                      */
