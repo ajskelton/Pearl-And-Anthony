@@ -285,21 +285,26 @@
 /*********************************************************************************/
 
 	#paralax1 {
-		max-width: 100%;
+		/*max-width: 100%;
 		background: url('../images/lightrain_sm.jpg') center top no-repeat fixed;
-		height:200px;
+		height:200px;*/
+		display:none;
 	}
 
 	#paralax2 {
-		max-width: 100%;
+		/*max-width: 100%;
 		background: url('../images/vintageday_sm.jpg') center top no-repeat fixed;
-		height:200px;
+		height:200px;*/
+		display:none;
+
 	}
 
 	#paralax3 {
-		max-width: 100%;
+		/*max-width: 100%;
 		background: url('../images/checkered-wall_sm.jpg') center top no-repeat fixed;
-		height:200px;
+		height:200px;*/
+		display:none;
+
 	}
 
 
