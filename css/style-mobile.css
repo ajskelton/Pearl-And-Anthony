@@ -83,6 +83,7 @@
 			.image.centered
 			{
 				margin: 0 0 1em 0;
+				width:100%;
 			}
 
 	/* Lists */
@@ -292,6 +293,12 @@
 	#paralax2 {
 		max-width: 100%;
 		background: url('../images/vintageday_sm.jpg') center top no-repeat fixed;
+		height:200px;
+	}
+
+	#paralax3 {
+		max-width: 100%;
+		background: url('../images/checkered-wall_sm.jpg') center top no-repeat fixed;
 		height:200px;
 	}
 
